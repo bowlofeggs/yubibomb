@@ -2,6 +2,13 @@
 name = "yubibomb"
 version = "0.0.0"
 authors = ["Randy Barlow <bowlofeggs@fedoraproject.org>"]
+description = "Don't you love when you accidentally tap your Yubikey when you have your IRC client \
+               in focus and you send 987947 into Freenode? Want to be able to have that experience \
+               without having to reach all the way over to your laptop's USB port? Now you can!"
+repository = "https://gitlab.com/bowlofeggs/yubibomb"
+keywords = ["yubikey"]
+categories = ["authentication", "command-line-utilities", "cryptography", "games"]
+license = "GPL-3.0"
 
 [dependencies]
 rand = "0.3.0"
