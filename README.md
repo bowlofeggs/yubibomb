@@ -7,4 +7,4 @@ $ yubibomb
 869926
 ```
 
-This project is available on [crate.io](https://crates.io/crates/yubibomb).
+This project is available on [crates.io](https://crates.io/crates/yubibomb).
