@@ -1,6 +1,6 @@
 [package]
 name = "yubibomb"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Randy Barlow <bowlofeggs@fedoraproject.org>"]
 description = """\
               Don't you love when you accidentally tap your Yubikey when you have your IRC client \
