@@ -1,0 +1,7 @@
+[package]
+name = "yubibomb"
+version = "0.0.0"
+authors = ["Randy Barlow <bowlofeggs@fedoraproject.org>"]
+
+[dependencies]
+rand = "0.3.0"
