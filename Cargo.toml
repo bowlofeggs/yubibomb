@@ -10,6 +10,7 @@ repository = "https://gitlab.com/bowlofeggs/yubibomb"
 keywords = ["yubikey"]
 categories = ["authentication", "command-line-utilities", "cryptography", "games"]
 license = "GPL-3.0"
+readme = "README.md"
 
 [dependencies]
 rand = "0.3.0"
