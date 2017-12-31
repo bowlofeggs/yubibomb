@@ -13,4 +13,4 @@ license = "GPL-3.0"
 readme = "README.md"
 
 [dependencies]
-rand = "0.3.0"
+rand = "0.4"
