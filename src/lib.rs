@@ -1,4 +1,5 @@
-/* Copyright © 2017 Randy Barlow
+/* Copyright © 2018 Jeremy Cline
+   Copyright © 2017 Randy Barlow
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -13,13 +14,18 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 extern crate rand;
-extern crate yubibomb;
 
-use yubibomb::Yubibomb;
+use rand::Rng;
 
 
-fn main() {
-    let yubibomb = Yubibomb::new();
+pub struct Yubibomb {
+    pub bomb: String,
+}
 
-    println!("{}", yubibomb.bomb);
+impl Yubibomb {
+    pub fn new() -> Yubibomb {
+        Yubibomb {
+            bomb: format!("{:06}", rand::thread_rng().gen_range(0, 1000000)),
+        }
+    }
 }
