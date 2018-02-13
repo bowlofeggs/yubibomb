@@ -1,0 +1,7 @@
+# Changelog
+
+## 0.2.0
+
+* Added a public API so you can use yubibomb to make your own fake hotp tokens.
+* Added documentation.
+* Added unit tests.
