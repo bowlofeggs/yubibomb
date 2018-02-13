@@ -18,6 +18,13 @@ extern crate rand;
 use rand::Rng;
 
 
+/// Returns an HOTP token.
+///
+/// # Examples
+///
+/// ```
+/// println!("{}", yubibomb::hotp());
+/// ```
 pub fn hotp() -> String {
     format!("{:06}", rand::thread_rng().gen_range(0, 1000000))
 }
