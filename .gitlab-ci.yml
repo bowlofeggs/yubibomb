@@ -1,0 +1,16 @@
+image: fedora
+
+before_script:
+    - dnf install -y /usr/bin/cargo
+
+Cargo build:
+    stage: build
+    script:
+        - cargo build
+        - cargo doc
+
+Cargo test:
+    stage: test
+    script:
+        - cargo run
+        - cargo test
