@@ -15,11 +15,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 extern crate rand;
 extern crate yubibomb;
 
-use yubibomb::Yubibomb;
+use yubibomb::hotp;
 
 
 fn main() {
-    let yubibomb = Yubibomb::new();
-
-    println!("{}", yubibomb.bomb);
+    println!("{}", hotp());
 }

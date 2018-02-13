@@ -1,5 +1,5 @@
 /* Copyright © 2018 Jeremy Cline
-   Copyright © 2017 Randy Barlow
+   Copyright © 2017-2018 Randy Barlow
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,14 +18,9 @@ extern crate rand;
 use rand::Rng;
 
 
-pub struct Yubibomb {
-    pub bomb: String,
+pub fn hotp() -> String {
+    format!("{:06}", rand::thread_rng().gen_range(0, 1000000))
 }
 
-impl Yubibomb {
-    pub fn new() -> Yubibomb {
-        Yubibomb {
-            bomb: format!("{:06}", rand::thread_rng().gen_range(0, 1000000)),
-        }
     }
 }
