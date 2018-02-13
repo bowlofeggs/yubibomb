@@ -14,3 +14,6 @@ readme = "README.md"
 
 [dependencies]
 rand = "0.4"
+
+[dev-dependencies]
+regex = "0.2"

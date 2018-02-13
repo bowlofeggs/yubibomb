@@ -22,5 +22,22 @@ pub fn hotp() -> String {
     format!("{:06}", rand::thread_rng().gen_range(0, 1000000))
 }
 
+
+#[cfg(test)]
+mod tests {
+    extern crate regex;
+
+    use self::regex::Regex;
+    use super::*;
+
+    #[test]
+    fn digits() {
+        let re = Regex::new(r"^\d{6}(?:\s*,\s*\d{6})*$").unwrap();
+        assert!(re.is_match(&hotp()));
+    }
+
+    #[test]
+    fn len_6() {
+        assert_eq!(hotp().len(), 6);
     }
 }
