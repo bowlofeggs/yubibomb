@@ -17,4 +17,4 @@ categories = ["authentication", "command-line-utilities", "cryptography", "games
 rand = "0.4"
 
 [dev-dependencies]
-regex = "0.2"
+regex = "1"
