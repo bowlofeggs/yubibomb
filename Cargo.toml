@@ -14,7 +14,7 @@ keywords = ["yubikey", "random", "game"]
 categories = ["authentication", "command-line-utilities", "cryptography", "games"]
 
 [dependencies]
-rand = "0.4"
+rand = "0.7"
 
 [dev-dependencies]
 regex = "1"
