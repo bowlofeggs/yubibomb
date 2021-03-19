@@ -4,7 +4,7 @@ version = "0.2.1"
 authors = ["Randy Barlow <bowlofeggs@fedoraproject.org>", "Jeremy Cline <jeremy@jcline.org>"]
 license = "GPL-3.0"
 readme = "README.md"
-repository = "https://gitlab.com/bowlofeggs/yubibomb"
+repository = "https://github.com/bowlofeggs/yubibomb"
 documentation = "https://docs.rs/yubibomb"
 description = """\
               Don't you love when you accidentally tap your Yubikey when you have your IRC client \
