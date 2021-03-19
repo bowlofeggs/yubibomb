@@ -17,7 +17,6 @@ extern crate yubibomb;
 
 use yubibomb::hotp;
 
-
 fn main() {
     println!("{}", hotp());
 }
