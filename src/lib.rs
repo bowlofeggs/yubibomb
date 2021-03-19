@@ -28,7 +28,7 @@ use rand::Rng;
 /// println!("{}", yubibomb::hotp());
 /// ```
 pub fn hotp() -> String {
-    format!("{:06}", rand::thread_rng().gen_range(0, 1000000))
+    format!("{:06}", rand::thread_rng().gen_range(0..1000000))
 }
 
 #[cfg(test)]
