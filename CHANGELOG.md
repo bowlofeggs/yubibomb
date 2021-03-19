@@ -3,7 +3,7 @@
 ## 0.2.2
 
 * Moved project to GitHub [#1](https://github.com/bowlofeggs/yubibomb/pull/1).
-* Upgrade to rand-0.8 [#2](https://github.com/bowlofeggs/yubibomb/pull/2).
+* Upgrade to rand-0.8 [#3](https://github.com/bowlofeggs/yubibomb/pull/3).
 * Update other dependencies [#4](https://github.com/bowlofeggs/yubibomb/pull/4).
 
 
