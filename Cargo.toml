@@ -1,6 +1,6 @@
 [package]
 name = "yubibomb"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Randy Barlow <bowlofeggs@fedoraproject.org>", "Jeremy Cline <jeremy@jcline.org>"]
 license = "GPL-3.0"
 readme = "README.md"
