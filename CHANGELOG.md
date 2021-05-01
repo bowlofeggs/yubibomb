@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.3
+
+* Update dependencies.
+
+
 ## 0.2.2
 
 * Moved project to GitHub [#1](https://github.com/bowlofeggs/yubibomb/pull/1).
