@@ -12,6 +12,7 @@ description = """\
               without having to reach all the way over to your laptop's USB port? Now you can!"""
 keywords = ["yubikey", "random", "game"]
 categories = ["authentication", "command-line-utilities", "cryptography", "games"]
+edition = "2021"
 
 [dependencies]
 rand = "0.8"
