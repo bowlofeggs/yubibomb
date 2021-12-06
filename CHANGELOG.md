@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.7
+
+* Use Rust 2021 edition.
+* Update dependencies.
+
+
 ## 0.2.6
 
 * Update dependencies.
