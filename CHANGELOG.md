@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.8
+
+* Update dependencies.
+
+
 ## 0.2.7
 
 * Use Rust 2021 edition.
