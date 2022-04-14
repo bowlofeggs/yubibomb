@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.9
+
+* Update dependencies.
+
+
 ## 0.2.8
 
 * Update dependencies.
