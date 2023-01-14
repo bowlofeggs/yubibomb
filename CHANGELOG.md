@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.12
+
+* Update dependencies.
+
+
 ## 0.2.11
 
 * Update dependencies.
