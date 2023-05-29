@@ -13,6 +13,7 @@ description = """\
 keywords = ["yubikey", "random", "game"]
 categories = ["authentication", "command-line-utilities", "cryptography", "games"]
 edition = "2021"
+rust-version = "1.65"
 
 [dependencies]
 rand = "0.8"
