@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.13
+
+* Define the minimum support Rust version to be 1.65.
+* Update dependencies.
+
+
 ## 0.2.12
 
 * Update dependencies.
