@@ -2,7 +2,7 @@
 name = "yubibomb"
 version = "0.2.14"
 authors = ["Randy Barlow <bowlofeggs@fedoraproject.org>", "Jeremy Cline <jeremy@jcline.org>"]
-license = "GPL-3.0"
+license = "GPL-3.0-only"
 readme = "README.md"
 repository = "https://github.com/bowlofeggs/yubibomb"
 documentation = "https://docs.rs/yubibomb"
